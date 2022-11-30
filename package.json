@@ -1,0 +1,24 @@
+{
+  "name": "node-spider-bqg-novel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/grabRanWen.js",
+  "scripts": {
+    "start": "npm run get:bqg",
+    "compile": "tsc",
+    "get:zwd": "tsc && node ./bin/grabZWDtxt.js",
+    "get:bqg": "tsc && node ./bin/grabBQG.js",
+    "get:rw": "tsc && node ./bin/grabRanWen.js",
+    "get:qyg": "tsc && node ./bin/grabQiuYuGe.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "LeoLiu",
+  "license": "ISC",
+  "dependencies": {
+    "download": "^8.0.0",
+    "pinyin": "^2.11.0",
+    "puppeteer": "^13.4.1",
+    "single-line-log2": "^1.1.3"
+  }
+}
